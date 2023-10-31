@@ -13,8 +13,10 @@ Color neutral700 = const Color(0xff1C1C1C);
 
 Color textDarkColor = const Color(0xff031B34);
 Color textLightColor = const Color(0xffF8F8F8);
+Color blueTernary = const Color(0xff41AEB0);
 
 Color primaryPurple = const Color(0xff5A3D99);
+Color secondaryPurple = const Color(0xff6F4BBD);
 Color primaryBlue = const Color(0xff09AEEF);
 Color primaryRed = const Color(0xffBD1B1B);
 Color primaryGreen = const Color(0xff1D7331);
@@ -24,41 +26,42 @@ Color hoverBlue = const Color(0xff59C6F1);
 Color hoverRed = const Color(0xffE64444);
 Color hoverGreen = const Color(0xff34AA4F);
 
+Color clickPurple = Color.fromARGB(255, 120, 86, 192);
 Color clickYellow = const Color(0xffE5B91D);
 Color clickBlue = const Color(0xff0B7AA6);
 Color clickRed = const Color(0xffA40404);
 Color clickGreen = const Color(0xff004F12);
 
 TextStyle header1 = GoogleFonts.poppins(
-  color: textDarkColor,
-  fontSize: 36,
+  color: primaryPurple,
+  fontSize: 28,
   fontWeight: bold,
 );
 TextStyle header2 = GoogleFonts.poppins(
   color: textDarkColor,
-  fontSize: 24,
+  fontSize: 20,
   fontWeight: bold,
 );
 TextStyle header3 = GoogleFonts.poppins(
   color: textDarkColor,
   fontSize: 16,
-  fontWeight: bold,
+  fontWeight: semibold,
 );
 TextStyle body = GoogleFonts.poppins(
   color: textDarkColor,
-  fontSize: 16,
+  fontSize: 12,
   fontWeight: regular,
 );
-TextStyle buttonText = GoogleFonts.poppins(
+TextStyle buttonAndFieldText = GoogleFonts.poppins(
   color: textLightColor,
-  fontSize: 16,
-  fontWeight: semibold,
+  fontSize: 12,
+  fontWeight: medium,
 );
-TextStyle linkText = GoogleFonts.poppins(
-    color: textDarkColor,
-    fontSize: 12,
-    fontWeight: semibold,
-    decoration: TextDecoration.underline);
+TextStyle subHeader = GoogleFonts.poppins(
+  color: textDarkColor,
+  fontSize: 14,
+  fontWeight: medium,
+);
 
 FontWeight light = FontWeight.w300;
 FontWeight regular = FontWeight.w400;

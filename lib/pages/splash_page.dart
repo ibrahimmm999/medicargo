@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:medicargo/pages/sign_in_page.dart';
 import 'package:medicargo/shared/theme.dart';
 
 class SplashPage extends StatefulWidget {
@@ -20,8 +19,7 @@ class _SplashPageState extends State<SplashPage> {
 
   getinit() async {
     Timer(const Duration(seconds: 2), () {
-      Navigator.push(
-          context, MaterialPageRoute(builder: (context) => const SignInPage()));
+      Navigator.pushNamedAndRemoveUntil(context, '/sign-in', (route) => false);
     });
   }
 
