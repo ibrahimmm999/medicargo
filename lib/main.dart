@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medicargo/pages/main_page.dart';
+import 'package:medicargo/pages/order_assigned_page.dart';
 import 'package:medicargo/pages/sign_in_page.dart';
 import 'package:medicargo/pages/splash_page.dart';
 import 'package:medicargo/provider/page_provider.dart';
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
           '/': (context) => const SplashPage(),
           '/main': (context) => const MainPage(),
           '/sign-in': (context) => const SignInPage(),
+          '/order-assigned': (context) => const OrderAssignedPage(),
         },
       ),
     );

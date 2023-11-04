@@ -16,10 +16,13 @@ Color textLightColor = const Color(0xffF8F8F8);
 Color blueTernary = const Color(0xff41AEB0);
 
 Color primaryPurple = const Color(0xff5A3D99);
-Color secondaryPurple = const Color(0xff6F4BBD);
+Color primaryOrange = const Color(0xffF36D26);
 Color primaryBlue = const Color(0xff09AEEF);
 Color primaryRed = const Color(0xffBD1B1B);
 Color primaryGreen = const Color(0xff1D7331);
+
+Color secondaryPurple = const Color(0xff6F4BBD);
+Color secondaryOrange = const Color(0xffF08C00);
 
 Color hoverYellow = const Color(0xffFFEA6A);
 Color hoverBlue = const Color(0xff59C6F1);
